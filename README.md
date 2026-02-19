@@ -72,7 +72,13 @@ The simulation uses **few-shot prompting** to mimic the effect of fine-tuning on
 
 Head to [https://ollama.com](https://ollama.com) and follow the install instructions for your OS.
 
-**2. Pull a model**
+**2. Rub Ollama**
+
+```bash
+ollama serve
+```
+
+**3. Pull a model**
 
 ```bash
 ollama pull llama3.2
@@ -80,13 +86,13 @@ ollama pull llama3.2
 
 You can use any model available locally. Larger models will give more consistent results.
 
-**3. Install the Python dependency**
+**4. Install the Python dependency**
 
 ```bash
 pip install ollama
 ```
 
-**4. Run the demo**
+**5. Run the demo**
 
 ```bash
 python data_poisoning_demo.py
