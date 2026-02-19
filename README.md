@@ -72,7 +72,7 @@ The simulation uses **few-shot prompting** to mimic the effect of fine-tuning on
 
 Head to [https://ollama.com](https://ollama.com) and follow the install instructions for your OS.
 
-**2. Rub Ollama**
+**2. Start Ollama**
 
 ```bash
 ollama serve
