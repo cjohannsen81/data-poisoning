@@ -72,29 +72,21 @@ The simulation uses **few-shot prompting** to mimic the effect of fine-tuning on
 
 Head to [https://ollama.com](https://ollama.com) and follow the install instructions for your OS.
 
-**2. Start Ollama**
-
-```bash
-ollama serve
-```
-
-**3. Pull a model**
+**2. Pull the model**
 
 ```bash
 ollama pull llama3.2
 ```
 
-You can use any model available locally. Larger models will give more consistent results.
-
-**4. Install the Python dependency**
+**3. Run the demo**
 
 ```bash
-pip install ollama
-```
+python3 -m venv .venv
+source .venv/bin/activate
 
-**5. Run the demo**
+python -m pip install -U pip
+python -m pip install ollama
 
-```bash
 python data_poisoning_demo.py
 ```
 
